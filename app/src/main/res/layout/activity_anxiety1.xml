@@ -1,12 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#f5e1e1"
-    tools:context=".Anxiety1"
-    android:gravity="center">
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:padding="16dp"
+    android:background="#f5e1e1">
 
-</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Avoid caffeine
+Caffeine is well-known as an anxiety inducerTrusted Source. But for me, drinking coffee has become such a habit that I often forget how sensitive I am to it.
+
+2. Avoid alcohol
+Feelings of anxiety can be so overwhelming that you might feel the urge to have a cocktail to help you relax.
+
+Although this may work in the short term, alcohol actually changes the levels of serotonin and other neurotransmitters in the brain, making your symptoms worse. In fact, you may feel more anxious after the alcohol wears off.
+
+3. Write it out
+One of the worst aspects of anxiety is not knowing why you feel nervous in the first place. You could be lying on an idyllic beach with the ocean waves lapping in the distance and still feel worried for absolutely no reason.
+
+That’s when writing can help. It can be an effective way to explore how you feel, especially if talking out loud feels impossible.
+
+Studies show that keeping a journal is actually a healthy way to deal with negative feelings and can help reduce stress.
+
+Another study found that anxious test participants who wrote a few notes before the test about how they were feeling and what they were thinking performed better than those who didn’t.
+
+4. Use fragrance
+Lavender is well known for its calming properties. Keep a small bottle of lavender oil on hand for the scent, for when you feel anxious thoughts brewing.
+
+If you practice mindfulness or meditation, try smelling lavender during your practice. Over time, you’ll associate the feeling of relaxation with that scent, making it even more effective.
+
+Shop for lavender oil.
+
+5. Talk to someone who gets it
+If your feelings of anxiety are making it hard to function, you should speak to a health professional. But talking to friends can also help. I have friends who have an anxiety disorder too. When I’m feeling really bad, I send them a message telling them how I’m feeling.
+
+They might have a new hack I can try, or they can point out something that might have acted as a trigger. But sometimes it’s just nice to vent to someone who knows how it feels to be in my shoes.
+
+6. Find a mantra
+I use positive affirmations every day to help manage my mood. I also have a different mantra that I repeat to myself when I’m feeling anxious.
+
+I’ll tell myself, “This feeling is only temporary.” This helps me feel calm, especially if I’m on the verge of a panic attack. I also remind myself that I’ve survived panic attacks in the past and acknowledge that it’s all going to be okay as long as I’m patient with myself.
+
+7. Walk it off
+Sometimes, when you’re experiencing anxiety, it’s because of a buildup of adrenaline. Exercise — even if it’s just a walk — can help use up that extra adrenaline.
+
+I often feel anxious when I haven’t moved around enough during the day, so walking is an excellent way for me to use up excess energy.
+
+Walking outside in the fresh air can also improve your well-being. One studyTrusted Source found that people who took a walking trip in a wooded area had lowered production of stress hormones than when they remained in the city.
+
+8. Drink water
+You may not realize it, but not drinking enough water can make your anxiety symptoms worse. Dehydration can actually cause heart palpitations. This can lead to feelings of panic, which may trigger an anxiety attack.
+
+Take a few moments to relax and drink a large glass of water and see if you feel any better.
+
+9. Have some alone time
+Having alone time is essential for me, and it helps me recharge my batteries and relax. If you’re feeling anxious, then find a reason to be alone. You could take a walk to the shop for some groceries, go to the gym, or clean the bathroom.
+
+These are all clever little ways to find alone time without seeming rude. It’s also an opportunity to practice mindfulnessTrusted Source, which can reduce symptoms of anxiety and panic.
+
+10. Turn off your phone
+Being constantly plugged in is a modern-day curse that we all need to learn to live with.
+
+Don’t be afraid to turn off your phone once in a while. Use it as a chance to practice mindfulness, go for a bath, or write down why you’re feeling anxious.
+
+11. Have a bath
+Do you find that your anxious thoughts are taking a toll on you both physically and mentally? This is common, and it can be a vicious cycle, making it hard to relax if your body is tense.
+
+A hot bath with Epsom salts is great for relaxing your muscles, which can also help relax your mind.
+
+Shop for Epsom salts.
+
+I find a bath is also good for encouraging meditation, because external distractions like TV are gone.
+
+12. Eat something
+I can get so wrapped up in my day at work that I forget to eat anything until two in the afternoon. It’s an easy mistake to make, and I often only remember to eat because I start to experience feelings of fear or worry.
+
+Low blood sugar can make you feel nervous, irritable, and anxious. Try eating something easy to digest like a banana. Then follow it up with a well-balanced meal with protein, carbohydrates, and vegetables."
+        android:textSize="16sp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Home"
+        android:id="@+id/home"/>
+
+</ScrollView>
