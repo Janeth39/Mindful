@@ -10,8 +10,8 @@ import android.widget.Button;
 public class Breathing extends AppCompatActivity {
     private Button homeBtn;
     private Button nextBtn;
-
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_breathing);
@@ -40,8 +40,6 @@ public class Breathing extends AppCompatActivity {
     }
     public void openActivityN()
     {
-        String c;
-
         if(homeScrn.p)
         {
 
